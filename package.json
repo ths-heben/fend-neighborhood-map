@@ -1,0 +1,25 @@
+{
+  "name": "fend-neighborhood-map",
+  "version": "1.0.0",
+  "description": "Udacity project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ths-heben@github.com/ths-heben/fend-neighborhood-map.git"
+  },
+  "keywords": [
+    "udacity"
+  ],
+  "author": "Thomas Hebenstreit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ths-heben/fend-neighborhood-map/issues"
+  },
+  "homepage": "https://github.com/ths-heben/fend-neighborhood-map#readme",
+  "dependencies": {
+    "bootstrap": "^4.2.1"
+  }
+}

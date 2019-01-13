@@ -1,0 +1,25 @@
+#map {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.location-list {
+  list-style: none;
+  font-family: Helvetica, sans-serif;
+  padding: 0;
+}
+
+.menu {
+  //background-color: #1f1b22;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 270px;
+  height: 400px;
+  padding: 15px;
+  //border: solid 1px #1f1b22;
+  border-radius: 5px;
+}
