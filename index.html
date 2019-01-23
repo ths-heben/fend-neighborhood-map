@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Neighborhood map</title>
+    <link rel="stylesheet" type="text/css" href="scss/main.min.css">
+</head>
+<body>
+    <!--The div element for the map -->
+    <div class="container-fluid">
+        <div id="map"></div>
+        <div class="row">
+            <div class="col-8 col-md-4 col-lg-3">
+                <img src="./img/baseline-menu-24px.svg" alt="" id="open-icon">
+                <div class="menu">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-default">Filter</span>
+                        </div>
+                        <input data-bind="textInput: query" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                    </div>
+                    <img src="./img/baseline-close-24px.svg" alt="" id="close-icon">
+                    <div data-bind="foreach: search" class="list-group">
+                        <a href="#" data-bind="text: title, click: $parent.listClick" class="list-group-item list-group-item-action"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type='text/javascript' src='js/jquery-3.3.1.min.js'></script>
+    <script type='text/javascript' src='js/knockout-3.4.2.js'></script>
+    <script type='text/javascript' src='js/app.js'></script>
+
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?libraries=geometry,drawing&key=AIzaSyCZZPrbsXwD3jTNM82XE-AzFx_bfFNQP6o&v=3&callback=initMap">
+    </script>
+</body>
+</html>
