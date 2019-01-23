@@ -325,8 +325,6 @@ function AppViewModel() {
             self.toggleBounce(this);
             infowindow.setContent('');
             self.openInfoField(this, infowindow);
-
-            populateInfoWindow(this, largeInfoWindow);
         });
 
         return marker;
