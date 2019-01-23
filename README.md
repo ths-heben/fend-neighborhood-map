@@ -10,6 +10,9 @@ By clicking an element (in list or a marker itself) the info window pops out and
 - knockout.js
 - Bootstrap
 
+### Package manager
+- npm
+
 ### Used APIs
 - Google Map API [https://cloud.google.com/maps-platform/](https://cloud.google.com/maps-platform/)
 - Foursquare API (Only limited access, because of free version) [https://developer.foursquare.com/](https://developer.foursquare.com/)
