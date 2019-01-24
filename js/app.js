@@ -292,6 +292,9 @@ let model = {
 
 };
 
+const foursquareClientId = 'XVBF0UQIGO2VDNEANNX4Y3R1S5HF2X5KXCFYDJBYYS5GDDOL';
+const foursquareClientSecret = 'GJWHO2KKTH3W2KBMSVJZMPUB5BIE1BYG1QKROKNPPMHV44GK';
+
 function AppViewModel() {
     let self = this;
 
@@ -345,8 +348,8 @@ function AppViewModel() {
             dataType: 'JSON',
             data: {
                 ll: lat + ',' + lng,
-                client_id: 'XVBF0UQIGO2VDNEANNX4Y3R1S5HF2X5KXCFYDJBYYS5GDDOL',
-                client_secret: 'GJWHO2KKTH3W2KBMSVJZMPUB5BIE1BYG1QKROKNPPMHV44GK',
+                client_id: foursquareClientId,
+                client_secret: foursquareClientSecret,
                 v: '20150609',
                 radius: 200,
                 sort: 'recent',
@@ -362,8 +365,8 @@ function AppViewModel() {
                 type: 'GET',
                 dataType: 'JSON',
                 data: {
-                    client_id: 'XVBF0UQIGO2VDNEANNX4Y3R1S5HF2X5KXCFYDJBYYS5GDDOL',
-                    client_secret: 'GJWHO2KKTH3W2KBMSVJZMPUB5BIE1BYG1QKROKNPPMHV44GK',
+                    client_id: foursquareClientId,
+                    client_secret: foursquareClientSecret,
                     v: '20190101',
                     limit: 5,
                 }
