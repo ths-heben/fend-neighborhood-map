@@ -482,3 +482,7 @@ $('#close-icon').click(function() {
     $('#open-icon').show();
     $('.menu').toggle();
 });
+
+googleAPIError = function googleAPIError() {
+    alert('Google Maps could not be loaded.');
+};
